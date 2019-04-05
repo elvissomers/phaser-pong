@@ -4,28 +4,26 @@ A basic game engine using phaser.io
 
 ## Getting Started
 
-Clone this repo by using:
-```
-git clone https://github.com/PijnappelJ/phaser-engine.git
-```
-
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
 You will need npm to install all needed dependencies
-
 You can get npm [here](https://www.npmjs.com/get-npm)
 
 ### Installing
 
-Install all dependencies such as phaser and node by using:
+Install all dependencies such as phaser by using:
 ```
 npm install
 ```
 
-## Deployment
+## Serving the game to the browser
 
-Still need to add additional notes about how to deploy this
+Use the following command to start a local web server that serves the game:
+```
+node server.js
+```
 
 ## Versioning
 
