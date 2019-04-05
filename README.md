@@ -4,7 +4,7 @@ A basic game engine using phaser.io
 
 ## Getting Started
 
-- Clone this repo by using:
+Clone this repo by using:
 ```
 git clone https://github.com/PijnappelJ/phaser-engine.git
 ```
@@ -14,9 +14,7 @@ git clone https://github.com/PijnappelJ/phaser-engine.git
 
 You will need npm to install all needed dependencies
 
-```
-Give examples
-```
+You can get npm [here](https://www.npmjs.com/get-npm)
 
 ### Installing
 
