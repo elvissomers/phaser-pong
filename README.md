@@ -22,7 +22,7 @@ npm install
 
 Use the following command to start a local web server that serves the game:
 ```
-node server.js
+npm run dev
 ```
 
 ## Versioning
