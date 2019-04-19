@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/PijnappelJ/phaser-engine#readme",
   "dependencies": {
-    "express": "^4.16.4",
     "phaser": "^3.16.2"
   },
   "devDependencies": {

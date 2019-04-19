@@ -1,10 +1,10 @@
-# Phaser Engine
+# Phaser Pong
 
-A basic game engine using phaser.io
+A basic pong game using phaser.io
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
@@ -31,11 +31,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Jelmer Pijnappel** - *Initial work* - [Chocolate Pinecone](http://chocolatepinecone.github.io/Website)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+* **Jelmer Pijnappel** - *Basic Pong game* - [Chocolate Pinecone](http://chocolatepinecone.github.io/Website)
 
 ## Acknowledgments
 
