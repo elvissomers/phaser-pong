@@ -148,7 +148,7 @@ function resetBall () {
 
 function launchBall () {
     // Set random ball velocity
-    let randomVelocity = {x:0, y:200};
+    let randomVelocity = {x:0, y:0};
     randomVelocity = Phaser.Math.RandomXY(randomVelocity, 200); // Get random velocity values between -200 and 200
     randomVelocity.x = (randomVelocity.x < 0) ? -200 : 200; // Set velocity x to a fixed starting value of -200 or 200
 
