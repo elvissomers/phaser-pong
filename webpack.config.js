@@ -11,7 +11,7 @@ module.exports = {
         vendor: ['phaser']
     },
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'docs'),
         filename: '[name].[chunkhash].js'
     },
     module: {
@@ -27,7 +27,7 @@ module.exports = {
             'WEBGL_RENDERER': JSON.stringify(true)
         }),
         new HtmlWebpackPlugin({
-            path: path.resolve(__dirname, 'build', 'index.html'),
+            path: path.resolve(__dirname, 'docs', 'index.html'),
             template: 'index.html'
         }),
         new webpack.HashedModuleIdsPlugin(),
@@ -38,7 +38,7 @@ module.exports = {
             name: 'manifest'
         }),
         new CopyWebpackPlugin([
-            {from:path.resolve(__dirname,'assets'), to:path.resolve(__dirname, 'build', 'assets')}
+            {from:path.resolve(__dirname,'assets'), to:path.resolve(__dirname, 'docs', 'assets')}
         ])
     ]
 };
