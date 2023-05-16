@@ -1,7 +1,7 @@
 {
-  "name": "phaser-engine",
+  "name": "phaser-pong",
   "version": "0.0.0",
-  "description": "A basic game engine using phaser.io",
+  "description": "A basic pong game using phaser.io",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/PijnappelJ/phaser-engine#readme",
   "dependencies": {
-    "phaser": "^3.16.2"
+    "phaser": "^3.60.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

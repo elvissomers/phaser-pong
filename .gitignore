@@ -3,3 +3,6 @@
 
 # npm / node
 /node_modules
+
+# build files
+/docs

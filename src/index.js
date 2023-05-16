@@ -15,7 +15,7 @@ const config = {
         preload: preload,
         create: create,
         update: update
-    }
+    },
 };
 
 // Initialize the game with the defined configuration
